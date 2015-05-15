@@ -7,7 +7,7 @@ from scipy.optimize import leastsq
 from matplotlib import pyplot as plt
 
 #data points
-N = 1000
+N = 100
 t = numpy.linspace(0, 4*numpy.pi, N)
 data = 3.0*numpy.sin(t+0.001) + 0.5 + numpy.random.randn(N)
 
